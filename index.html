@@ -5,6 +5,10 @@
     <meta charset="utf-8">
     <title>Project Astrom Website</title>
     <style>
+        body::-webkit-scrollbar {
+            display: none;
+        }
+
         div {
             box-sizing: border-box;
             overflow: hidden;
@@ -15,20 +19,25 @@
             margin: 0;
             color: #DEDEDE;
         }
-        img{
+
+        img {
             border-radius: 10px;
         }
     </style>
 </head>
 
 <body style="height: 100%; margin: 0;">
-    <div style="display:flex; flex-direction: row; align-items: center; position: fixed; min-width: 660px; width: 100%; height: 45px; border-radius: 0px 0px 10px 10px; background-color: #2A2A2A; padding: 10px; box-shadow: 0 0 20px 5px #00000060;">
+    <div
+        style="display:flex; flex-direction: row; align-items: center; position: fixed; width: 100%; height: 45px; border-radius: 0px 0px 10px 10px; background-color: #2A2A2A; padding: 10px; box-shadow: 0 0 20px 5px #00000060;">
         <p style="color: #cc80ff;"><b>PROJECT ASTROM</b></p>
     </div>
-    <div style="background-color: #1D1D1D; min-height: 100%; width: 100%; min-width: 660px; display:flex; flex-direction: row; justify-content: center;">
-        <div style="display: flex; flex-direction: column; align-items: center; width: 100%; min-height: 100%;">
+    <div
+        style="background-color: #1D1D1D; min-height: 100%; width: 100%; min-width: 660px; display:flex; flex-direction: row; justify-content: center;">
+        <div
+            style="display: flex; flex-direction: column; align-items: center; width: 100%; min-height: 100%; max-width: 1280px;">
             <div style="min-height: 45px; max-height: 45px;"></div>
-            <div style="padding: 10px; width: 100%; max-width: 1280px; display: flex; flex-direction: column; box-sizing: border-box;">
+            <div
+                style="padding: 10px; width: 100%; display: flex; flex-direction: column; box-sizing: border-box; min-height: 100%;">
                 <p style="text-align: center; color: #EDEDED;">
                     Project Astrom은 조건검색 프로그램입니다.<br>
                     다양한 지수들을 종합할 수 있기에, 놀라운 자유도를 제공합니다.<br>
@@ -36,7 +45,7 @@
                     1인개발중이므로 업데이트에 많은 기간이 걸릴 수 있습니다.<br><br>
                 </p>
                 <div style="display: flex; flex-direction: row; width: 100%; align-items: center;">
-                    <img src="scrsht1.PNG" style="max-width: 35%;">
+                    <img src="scrsht1.PNG" style="width: 35%;">
                     <p style="padding: 10px; color: #EDEDED; width: 65%;">
                         <b>차세대 UI</b><br>
                         깔끔하고 모던한 디자인으로 안정적인 외형
@@ -47,10 +56,10 @@
                         <b>다양한 기능</b><br>
                         여러가지 지수들을 사용할 수 있을뿐만 아니라<br>구체적인 설정까지 가능
                     </p>
-                    <img src="scrsht1.PNG" style="float: right; max-width: 35%;">
+                    <img src="scrsht1.PNG" style="float: right; width: 35%;">
                 </div>
                 <div style="display: flex; flex-direction: row; width: 100%; align-items: center;">
-                    <img src="scrsht1.PNG" style="max-width: 35%;">
+                    <img src="scrsht1.PNG" style="width: 35%;">
                     <p style="padding: 10px; color: #EDEDED; width: 65%;">
                         <b>직관적 사용</b><br>
                         한눈에 보이는 버튼들로 원하는 기능을
@@ -62,8 +71,8 @@
                         <b>ProjectAstrom 다운로드</b>
                     </p>
                 </div>
-                <p style="color: #AAAAAA; font-size: 12px; text-align: center;">
-                    <br>Copyright 2022. unic3455 All rights reserved.
+                <p style="color: #AAAAAA; font-size: 12px; text-align: center; margin-top: 10px;">
+                    Copyright 2022. unic3455 All rights reserved.
                 </p>
             </div>
         </div>
